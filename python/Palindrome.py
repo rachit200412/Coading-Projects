@@ -1,4 +1,4 @@
-num = 121
+num = int(input("enter to guess Palindrome "))
 original = num
 reversed_num = 0
 
@@ -9,4 +9,5 @@ while num > 0:
 
 if original == reversed_num:
     print("Palindrome")
-
+else: 
+    print("Not Palindrome")
